@@ -1,0 +1,19 @@
+{
+    "name": "bauer01/unimapper-plantuml",
+    "type": "library",
+    "description": "PlantUML generator for UniMapper",
+    "keywords": ["php", "unimapper", "plantuml"],
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Bronislav Sedlak",
+            "homepage": "http://github.com/bauer01"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
